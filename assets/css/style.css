@@ -43,12 +43,21 @@ input {
 button {
     border: none;
     outline: none;
-    padding: 16px 50px;
+    padding: 16px 20px;
     background: darkorchid;
     color: white;
     font-size: 14px;
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 30px;
+}
+button:hover {
+    background: white;
+    color: darkorchid;
+    border: 2px solid darkorchid;
+    padding: 16px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
 }
 
 ul li {
@@ -94,4 +103,7 @@ ul li.checked::before {
     color: white;
  }
 
+ h2 {
+    text-align: center;
+ }
 

@@ -34,3 +34,24 @@ function showTask() {
     listContainer.innerHTML = localStorage.getItem("data")
 }
 showTask();
+
+function sorting() {
+    // inputBox.value.sort()
+    var array1 = []
+    listContainer = array1
+    console.log(array1)
+    console.log(array1.sort())
+}
+sorting()
+
+// JavaScript to illustrate sort() function
+// function func() {
+ 
+//     // Original string
+//     let arr = ["Geeks", "for", "Geeks"]
+ 
+//     console.log(arr);
+//     // Sorting the array
+//     console.log(arr.sort());
+// }
+// func();
